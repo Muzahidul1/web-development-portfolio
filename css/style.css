@@ -69,3 +69,62 @@ nav >p {
 nav > p > span{
     color: #FD6E0A;
 }
+
+
+
+/* banner style css */
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 50px 140px;
+}
+
+.banner-text > .p-first {
+    color:  #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-text > h1{
+    color: var(--dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-text > .p-sec{
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner img{
+    width: 500px;
+}
+
+.banner button{
+    padding: 7px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button svg{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.banner .download-btn{
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+}
+
+.banner .contact-btn{
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
