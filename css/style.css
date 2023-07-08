@@ -81,13 +81,18 @@ nav > p > span{
 .banner{
     display: flex;
     align-items: center;
-    padding: 30px 30px 0px 140px;
+    padding: 30px 0px 0px 0px;
+    justify-content: space-around;
+    max-width: 1180px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .banner-text > .p-first {
     color:  #474747;
     font-size: 45px;
     font-weight: 600;
+    width: 500px;
 }
 
 .banner-text > h1{
@@ -104,7 +109,7 @@ nav > p > span{
 }
 
 .banner img{
-    width: 500px;
+    width: 300px;
 }
 
 
@@ -147,7 +152,7 @@ button svg{
     border-radius: 10px;
     background: rgb(255, 248, 243,1);
     margin: 60px 0;
-    padding: 100px;
+    padding: 90px;
 }
 
 .about h2{
@@ -185,4 +190,59 @@ button svg{
 
 .info .info-ans{
     color: rgba(71, 71, 71, 1);
+}
+
+
+/* what i do css */
+.discription-section{
+    text-align: center;
+    margin: 90px;
+}
+
+.discription-section h2{
+    color: var(--dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.discription-section p{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+/* skills set div code */
+
+.skill-set-section{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 25px;
+}
+
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 250px;
+    padding: 20px;
+}
+
+.skill img{
+    width: 50px;
+}
+
+.skill h3{
+    color: var(--dark-01, #181818);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.skill p{
+    color: var(--dark-03, #757575);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
 }
